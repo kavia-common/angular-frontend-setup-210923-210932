@@ -1,0 +1,21 @@
+.site-footer {
+  margin-top: 2rem;
+  background: var(--surface);
+  border-top: 1px solid rgba(17, 24, 39, 0.06);
+}
+
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.muted {
+  color: rgba(17, 24, 39, 0.7);
+  font-size: 0.9rem;
+}
